@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D30F35EF1A22955200B66521 /* EasyApple.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D30F35EE1A22955200B66521 /* EasyApple.h */; };
+		D30F35F11A22955200B66521 /* EasyApple.m in Sources */ = {isa = PBXBuildFile; fileRef = D30F35F01A22955200B66521 /* EasyApple.m */; };
+		D30F35F71A22955200B66521 /* libEasyApple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D30F35EB1A22955200B66521 /* libEasyApple.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D30F35F81A22955200B66521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D30F35E31A22955200B66521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D30F35EA1A22955200B66521;
+			remoteInfo = EasyApple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D30F35E91A22955200B66521 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D30F35EF1A22955200B66521 /* EasyApple.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D30F35EB1A22955200B66521 /* libEasyApple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEasyApple.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30F35EE1A22955200B66521 /* EasyApple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyApple.h; sourceTree = "<group>"; };
+		D30F35F01A22955200B66521 /* EasyApple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyApple.m; sourceTree = "<group>"; };
+		D30F35F61A22955200B66521 /* EasyAppleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyAppleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30F35FC1A22955200B66521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D30F35E81A22955200B66521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30F35F31A22955200B66521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30F35F71A22955200B66521 /* libEasyApple.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D30F35E21A22955200B66521 = {
+			isa = PBXGroup;
+			children = (
+				D30F35ED1A22955200B66521 /* EasyApple */,
+				D30F35FA1A22955200B66521 /* EasyAppleTests */,
+				D30F35EC1A22955200B66521 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D30F35EC1A22955200B66521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D30F35EB1A22955200B66521 /* libEasyApple.a */,
+				D30F35F61A22955200B66521 /* EasyAppleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D30F35ED1A22955200B66521 /* EasyApple */ = {
+			isa = PBXGroup;
+			children = (
+				D30F35EE1A22955200B66521 /* EasyApple.h */,
+				D30F35F01A22955200B66521 /* EasyApple.m */,
+			);
+			path = EasyApple;
+			sourceTree = "<group>";
+		};
+		D30F35FA1A22955200B66521 /* EasyAppleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D30F35FB1A22955200B66521 /* Supporting Files */,
+			);
+			path = EasyAppleTests;
+			sourceTree = "<group>";
+		};
+		D30F35FB1A22955200B66521 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D30F35FC1A22955200B66521 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D30F35EA1A22955200B66521 /* EasyApple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30F35FF1A22955200B66521 /* Build configuration list for PBXNativeTarget "EasyApple" */;
+			buildPhases = (
+				D30F35E71A22955200B66521 /* Sources */,
+				D30F35E81A22955200B66521 /* Frameworks */,
+				D30F35E91A22955200B66521 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyApple;
+			productName = EasyApple;
+			productReference = D30F35EB1A22955200B66521 /* libEasyApple.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D30F35F51A22955200B66521 /* EasyAppleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30F36021A22955200B66521 /* Build configuration list for PBXNativeTarget "EasyAppleTests" */;
+			buildPhases = (
+				D30F35F21A22955200B66521 /* Sources */,
+				D30F35F31A22955200B66521 /* Frameworks */,
+				D30F35F41A22955200B66521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D30F35F91A22955200B66521 /* PBXTargetDependency */,
+			);
+			name = EasyAppleTests;
+			productName = EasyAppleTests;
+			productReference = D30F35F61A22955200B66521 /* EasyAppleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D30F35E31A22955200B66521 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Brian Bosak";
+				TargetAttributes = {
+					D30F35EA1A22955200B66521 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D30F35F51A22955200B66521 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = D30F35E61A22955200B66521 /* Build configuration list for PBXProject "EasyApple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D30F35E21A22955200B66521;
+			productRefGroup = D30F35EC1A22955200B66521 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D30F35EA1A22955200B66521 /* EasyApple */,
+				D30F35F51A22955200B66521 /* EasyAppleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D30F35F41A22955200B66521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D30F35E71A22955200B66521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30F35F11A22955200B66521 /* EasyApple.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30F35F21A22955200B66521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D30F35F91A22955200B66521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D30F35EA1A22955200B66521 /* EasyApple */;
+			targetProxy = D30F35F81A22955200B66521 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D30F35FD1A22955200B66521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D30F35FE1A22955200B66521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D30F36001A22955200B66521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D30F36011A22955200B66521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D30F36031A22955200B66521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyAppleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D30F36041A22955200B66521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyAppleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D30F35E61A22955200B66521 /* Build configuration list for PBXProject "EasyApple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30F35FD1A22955200B66521 /* Debug */,
+				D30F35FE1A22955200B66521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D30F35FF1A22955200B66521 /* Build configuration list for PBXNativeTarget "EasyApple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30F36001A22955200B66521 /* Debug */,
+				D30F36011A22955200B66521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D30F36021A22955200B66521 /* Build configuration list for PBXNativeTarget "EasyAppleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30F36031A22955200B66521 /* Debug */,
+				D30F36041A22955200B66521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D30F35E31A22955200B66521 /* Project object */;
+}
