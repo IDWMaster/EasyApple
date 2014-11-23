@@ -10,6 +10,7 @@
 		D30F35EF1A22955200B66521 /* EasyApple.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D30F35EE1A22955200B66521 /* EasyApple.h */; };
 		D30F35F11A22955200B66521 /* EasyApple.m in Sources */ = {isa = PBXBuildFile; fileRef = D30F35F01A22955200B66521 /* EasyApple.m */; };
 		D30F35F71A22955200B66521 /* libEasyApple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D30F35EB1A22955200B66521 /* libEasyApple.a */; };
+		D30F36071A22977300B66521 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = D30F36051A22977300B66521 /* sqlite3.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 		D30F35F01A22955200B66521 /* EasyApple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyApple.m; sourceTree = "<group>"; };
 		D30F35F61A22955200B66521 /* EasyAppleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyAppleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30F35FC1A22955200B66521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D30F36051A22977300B66521 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		D30F36061A22977300B66521 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		D30F35ED1A22955200B66521 /* EasyApple */ = {
 			isa = PBXGroup;
 			children = (
+				D30F36051A22977300B66521 /* sqlite3.c */,
+				D30F36061A22977300B66521 /* sqlite3.h */,
 				D30F35EE1A22955200B66521 /* EasyApple.h */,
 				D30F35F01A22955200B66521 /* EasyApple.m */,
 			);
@@ -194,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D30F35F11A22955200B66521 /* EasyApple.m in Sources */,
+				D30F36071A22977300B66521 /* sqlite3.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
